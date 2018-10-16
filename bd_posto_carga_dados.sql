@@ -5,15 +5,15 @@ insert into bd_posto.dbo.posto (nome_fantasia, razao_social, cnpj, endereco, tel
 insert into bd_posto.dbo.posto (nome_fantasia, razao_social, cnpj, endereco, telefone, gerente) values ('IPIRANGA', 'IPIRANGA PRODUTOS DE PETROLEO S.A', 30172953805, 'AV A, 1029', 301924816, 'CARLOS');
 
 insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (1, 'CARLOS GIOVANNI MARCIO ARAGAO', 66831038107, 402227104, 'PEDRO HENRIQUE LUCCA IAN ARAGAO', 'M', 'GERENTE', '12/09/1955');
-insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (2, 'ANDREA LUNA ISIS DUARTE', 54284941828, 441004805, 'PEDRO LUCAS BRENO MURILO DUARTE', 'F', 'FRENTISTA', '17/04/1975');
-insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (3, 'SABRINA MAITE MARIA SALES', 82360810529, 424212377, 'RAFAEL PAULO SALES', 'F', 'FRENTISTA', '08/11/1964');
+insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (2, 'ANDREA LUNA ISIS DUARTE', 54284941828, 441004805, 'PEDRO LUCAS BRENO MURILO DUARTE', 'M', 'FRENTISTA', '17/04/1975');
+insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (3, 'SABRINA MAITE MARIA SALES', 82360810529, 424212377, 'RAFAEL PAULO SALES', 'M', 'FRENTISTA', '08/11/1964');
 insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (4, 'GABRIEL RENAN BARROS', 73312981485, 460963636, 'ALEXANDRE TIAGO BARROS', 'M', 'CAIXA', '27/08/1970');
 insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (5, 'DAVI HUGO SOUZA', 45219669346, 445229457, 'FILIPE GUSTAVO OSVALDO SOUZA', 'M', 'SEGURANCA', '11/07/1978');
 insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (6, 'BRUNO HUGO SILVEIRA', 58845568377, 362195158, 'NOAH GAEL SILVEIRA', 'M', 'GERENTE', '25/09/1966');
 insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (7, 'PEDRO MARCELO GONCALVES', 12154905269, 369174458, 'ENRICO JORGE GONCALVES', 'M', 'GERENTE', '01/07/1958');
-insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (8, 'JULIA VALENTINA ARAUJO', 34564323482, 488704509, 'CAUA BRENO ARAUJO', 'F', 'CAIXA', '17/09/1963');
-insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (9, 'LETICIA RAFAELA LUZIA FERREIRA', 54075908321, 301164502, 'MARIO RAIMUNDO FERREIRA', 'F', 'FRENTISTA', '08/08/1963');
-insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (10, 'MARINA BOULOS DE LACERDA', 50281630581, 820619385, 'IAGO RYAN DE LACERDA', 'F', 'FRENTISTA', '04/07/1964');
+insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (8, 'JULIA VALENTINA ARAUJO', 34564323482, 488704509, 'CAUA BRENO ARAUJO', 'M', 'CAIXA', '17/09/1963');
+insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (9, 'LETICIA RAFAELA LUZIA FERREIRA', 54075908321, 301164502, 'MARIO RAIMUNDO FERREIRA', 'M', 'FRENTISTA', '08/08/1963');
+insert into bd_posto.dbo.empregado (matricula, nome, cpf, rg, filiacao, sexo, cargo, dt_nasc) values (10, 'MARINA BOULOS DE LACERDA', 50281630581, 820619385, 'IAGO RYAN DE LACERDA', 'M', 'FRENTISTA', '04/07/1964');
 
 insert into bd_posto.dbo.dependente_emp (nome, cpf, filiacao, sexo, dt_nasc) values ('GABRIEL HENRIQUE SILVEIRA', 19774633717, 'BRUNO HUGO SILVEIRA', 'M', '03/05/1979');
 insert into bd_posto.dbo.dependente_emp (nome, cpf, filiacao, sexo, dt_nasc) values ('EMILLY DE ARAUJO GONCALVES', 82022081650, 'PEDRO MARCELO GONCALVES', 'F', '01/06/1980');
@@ -48,30 +48,29 @@ insert into bd_posto.dbo.dependente_pf (nome, endereco, telefone, cnh, cpf) valu
 insert into bd_posto.dbo.dependente_pf (nome, endereco, telefone, cnh, cpf) values ('SEVERINO ARTHUR PINTO', 'RUA DOS PIANOS', 3437831321, 93783462680, 01323422005);
 insert into bd_posto.dbo.dependente_pf (nome, endereco, telefone, cnh, cpf) values ('IGOR BRYAN BAPTISTA', 'RUA OSEAS JOSE DOS SANTOS', 8725291804, 43438795462, 67242345065);
 
-insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ();
-insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ();
-insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ();
-insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ();
-insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ();
-insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ();
-insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ();
-insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ();
-insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ();
+insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ('EeD Ferragens','Esther e Daniel Ferragens ME', 'Rua dos Coelhos', 44216661000124);
+insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ('GeI Casa Noturna','Gabriel e Isabela Casa Noturna ME', 'Rua Conegundes Rodrigues', 18217258000100);
+insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ('LeE Marketing','Lucca e Esther Marketing ME', 'Rua Escritor Humberto de Campos', 55744421000119);
+insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ('NeH Telecom','Nicolas e Henry Telecom ME', 'Rua São Vicente', 77608397000123);
+insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ('MeV Adega','Milena e Vicente Adega ME', 'Rua Primavera',64600536000120);
+insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ('CeL Marketing','Calebe e Luís Marketing Ltda', 'Rua Guilherme Mendes', 61941010000116);
+insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ('ReJ Ferragens','Regina e Josefa Ferragens ME', 'Rua Maria Bezerra', 93860758000180);
+insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, endereco, cnpj) values ('ReL Consultoria','Ricardo e Louise Consultoria Financeira Ltda', 'Vila Maciel', 15592903000186);
 
-insert into dependente_pj (nome, endereco, cpf) values ();
-insert into dependente_pj (nome, endereco, cpf) values ();
-insert into dependente_pj (nome, endereco, cpf) values ();
-insert into dependente_pj (nome, endereco, cpf) values ();
-insert into dependente_pj (nome, endereco, cpf) values ();
-insert into dependente_pj (nome, endereco, cpf) values ();
-insert into dependente_pj (nome, endereco, cpf) values ();
-insert into dependente_pj (nome, endereco, cpf) values ();
-insert into dependente_pj (nome, endereco, cpf) values ();
+insert into bd_posto.dbo.dependente_pj (nome, endereco, cpf) values ('Isaac Anderson Moraes','Rua Guilherme Pessoa', 55451676330);
+insert into bd_posto.dbo.dependente_pj (nome, endereco, cpf) values ('Lucca Kevin Araújo','Rua André Barros',25407053322);
+insert into bd_posto.dbo.dependente_pj (nome, endereco, cpf) values ('Bernardo Thales Castro','Rua João Carlos',48665165347);
+insert into bd_posto.dbo.dependente_pj (nome, endereco, cpf) values ('José Henrique das Neves','Avenida B',31420653342);
+insert into bd_posto.dbo.dependente_pj (nome, endereco, cpf) values ('Victor Lucca Figueiredo','Vila União',31072231310);
+insert into bd_posto.dbo.dependente_pj (nome, endereco, cpf) values ('Benjamin Osvaldo Santos','Rua Castro e Silva',37739666360);
+insert into bd_posto.dbo.dependente_pj (nome, endereco, cpf) values ('Gabriel Renan Sérgio Aragão','Rua 20',27544424308);
+insert into bd_posto.dbo.dependente_pj (nome, endereco, cpf) values ('Brenda Andrea Corte Real','Rua Cem',80876983395);
+insert into bd_posto.dbo.dependente_pj (nome, endereco, cpf) values ('Flávia Yasmin Fernanda Pires','Rua 9',61392125375);
 
-insert into bd_posto.dbo.abastecimento (cpf_cnpj, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (12345678901, 'a', 123.50, '20/10/889', '20/10/890', '20/10/888', 'com a bunda', 'itau');
-insert into abastecimento (frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values ();
-insert into abastecimento (frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values ();
-insert into abastecimento (frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values ();
+insert into bd_posto.dbo.abastecimento (cpf_cnpj, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (12345678911, 'PEDRO LUCAS BRENO MURILO DUARTE', 125.00, '1/10/2018', '1/10/2018', '1/10/2018', 'Débito', 'PETROBRAS');
+insert into bd_posto.dbo.abastecimento (cpf_cnpj, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (12345678912, 'PEDRO LUCAS BRENO MURILO DUARTE', 75.00, '2/10/2018', '2/10/2018', '2/10/2018', 'Crédito', 'PETROBRAS');
+insert into bd_posto.dbo.abastecimento (cpf_cnpj, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (12345678913, 'RAFAEL PAULO SALES', 1020.00, '3/8/2018', '3/8/2018', '3/8/2018', 'Boleto', 'SHELL');
+insert into bd_posto.dbo.abastecimento (cpf_cnpj, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (12345678914, 'IAGO RYAN DE LACERDA', 50.00, '12/9/2018', '12/10/2018', '12/10/2018', 'Cheque', 'IPIRANGA');
 
 insert into fidelidade (data_hora, cpf_cnpj, frentista, pontos) values ();
 insert into fidelidade (data_hora, cpf_cnpj, frentista, pontos) values ();

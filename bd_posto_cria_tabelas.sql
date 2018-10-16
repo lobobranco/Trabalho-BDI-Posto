@@ -75,16 +75,16 @@ constraint pk_dependente_pj
 create table abastecimento
 (cpf_cnpj			bigint				not null,
 frentista			varchar(50)			not null,
-valor				decimal(4,2)			not null,
-dt_abastecimento	date,
+valor				decimal(9,2)		not null,
 forma_pagamento		varchar(50),
 posto				varchar(50),
+dt_abastecimento	date,
 dt_vencimento		date,
 dt_pagamento		date,
 constraint pk_abastecimento
 		primary key(cpf_cnpj)
 );
-drop table abastecimento
+
 create table fidelidade
 (cpf_cnpj			bigint				not null,
 data_hora			date		not null,
