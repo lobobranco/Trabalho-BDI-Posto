@@ -72,7 +72,31 @@ insert into bd_posto.dbo.abastecimento (cpf_cnpj, frentista, valor, dt_abastecim
 insert into bd_posto.dbo.abastecimento (cpf_cnpj, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (12345678913, 'RAFAEL PAULO SALES', 1020.00, '3/8/2018', '3/8/2018', '3/8/2018', 'Boleto', 'SHELL');
 insert into bd_posto.dbo.abastecimento (cpf_cnpj, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (12345678914, 'IAGO RYAN DE LACERDA', 50.00, '12/9/2018', '12/10/2018', '12/10/2018', 'Cheque', 'IPIRANGA');
 
-insert into fidelidade (data_hora, cpf_cnpj, frentista, pontos) values ();
-insert into fidelidade (data_hora, cpf_cnpj, frentista, pontos) values ();
-insert into fidelidade (data_hora, cpf_cnpj, frentista, pontos) values ();
-insert into fidelidade (data_hora, cpf_cnpj, frentista, pontos) values ();
+insert into bd_posto.dbo.fidelidade (data_hora, cpf_cnpj, frentista, pontos) values ('20/06/1998 10:34:09', 19572018584, 'RAFAEL PAULO SALES', 12);
+insert into bd_posto.dbo.fidelidade (data_hora, cpf_cnpj, frentista, pontos) values ('20/05/2000 09:35:00', 82022081650, 'MARIO RAIMUNDO FERREIRA', 50);
+insert into bd_posto.dbo.fidelidade (data_hora, cpf_cnpj, frentista, pontos) values ('29/06/2017 12:20:06', 78653044302, 'PEDRO LUCAS BRENO MURILO DUARTE', 200);
+insert into bd_posto.dbo.fidelidade (data_hora, cpf_cnpj, frentista, pontos) values ('16/10/2018 16:07:55', 86415013528, 'IAGO RYAN DE LACERDA', 2000);
+
+insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_posto) values (1, 'Itaú', 12, 16591732058);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_posto) values (2, 'Santander', 13, 50271950824);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_posto) values (3, 'Banco do Brasil', 41, 30172953805);
+
+insert into bd_posto.dbo.banco (conta, nome, agencia, cpf_pf) values (4, 'Bradesco', 15, 19572018584);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cpf_pf) values (5, 'Caixa', 43, 59281640617);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cpf_pf) values (6, 'Bradesco', 14, 91750275823);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cpf_pf) values (7, 'Itaú', 63, 19842816427);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cpf_pf) values (8, 'Neon', 12, 93817452682);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cpf_pf) values (9, 'Nubank', 75, 58264011994);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cpf_pf) values (10, 'Banco do Brasil', 43, 72017596227);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cpf_pf) values (11, 'Caixa', 26, 91758302853);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cpf_pf) values (12, 'Santander', 11, 81049216857);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cpf_pf) values (13, 'Nubank', 74, 19671530281);
+
+insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_pj) values (14,'Bradesco', 443, 44216661000124);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_pj) values (15,'Itaú', 41, 18217258000100);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_pj) values (16,'Banco do Brasil', 76, 55744421000119);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_pj) values (17,'Caixa', 85, 77608397000123);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_pj) values (18,'Caixa', 64,64600536000120);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_pj) values (19,'Itaú', 53, 61941010000116);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_pj) values (20,'Santander', 62, 93860758000180);
+insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_pj) values (21,'Caixa', 52, 15592903000186);

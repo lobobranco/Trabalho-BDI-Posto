@@ -86,8 +86,8 @@ constraint pk_abastecimento
 );
 
 create table fidelidade
-(cpf_cnpj			bigint				not null,
-data_hora			date		not null,
+(cpf_cnpj			bigint			not null,
+data_hora			datetime		not null,
 frentista			varchar(50)		not null,
 pontos				int,
 constraint pk_fidelidade
@@ -98,6 +98,14 @@ create table banco
 (conta				int				not null,
 nome				varchar(50)		not null,
 agencia				int				not null,
-constraint pk_banco
-	primary key(conta)
+cnpj_posto			bigint,
+cpf_pf				bigint,
+cnpj_pj				bigint,
+
+primary key(conta),
+constraint pk_banco foreign key (cnpj_posto) references posto(cnpj),
+foreign key (cpf_pf) references cliente_pessoa_fisica(cpf),
+foreign key (cnpj_pj) references cliente_pessoa_juridica(cnpj)
 );
+
+drop table banco
