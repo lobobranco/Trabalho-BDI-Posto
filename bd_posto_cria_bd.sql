@@ -20,5 +20,5 @@ select * from bd_posto.dbo.fidelidade
 
 select * from bd_posto.dbo.banco
 
-select * from bd_posto.dbo.banco as banco where banco.cpf_cnpj=16591732058
-select * from bd_posto.dbo.banco as banco where banco.nome='Itaú'
+select * from bd_posto.dbo.banco as banco, bd_posto.dbo.posto as posto where banco.cnpj_posto=16591732058 and posto.cnpj=16591732058
+select * from bd_posto.dbo.banco as banco where banco.nome='ITAU'
