@@ -17,7 +17,7 @@ create table lotacao
 (
 departamento		int					not null,
 descricao			varchar(50)			not null,
-unidade				bigint					not null,
+unidade				bigint				not null,
 
 primary key(descricao),
 constraint pk_lotacao
@@ -72,7 +72,7 @@ nome				varchar(50)			not null,
 endereco			varchar(100),
 telefone			bigint,
 cnh					bigint,
-depende				bigint,
+depende				bigint				not null,
 
 primary key (cpf),
 constraint pk_dependente_pf
@@ -113,7 +113,7 @@ create table fidelidade
 cnpj_pj				bigint,
 ficha				int					not null,
 data_hora			datetime			not null,
-frentista			int			not null,
+frentista			int					not null,
 pontos				int					not null,
 
 primary key(ficha),
