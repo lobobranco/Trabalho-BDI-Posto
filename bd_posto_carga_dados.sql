@@ -73,8 +73,8 @@ insert into bd_posto.dbo.cliente_pessoa_juridica (nome_fantasia, razao_social, e
 
 insert into bd_posto.dbo.abastecimento (notafiscal, cpf_pf, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (1, 19572018584, 4,  125.00, '1/10/2018', '1/10/2018', '1/10/2018', 'DINHEIRO', 16591732058);
 insert into bd_posto.dbo.abastecimento (notafiscal, cnpj_pj, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (2, 44216661000124, 5, 75.00, '2/10/2018', '2/10/2018', '2/10/2018', 'CARTAO', 16591732058);
-insert into bd_posto.dbo.abastecimento (notafiscal, cnpj_pj, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (3, 18217258000100, 6, 1020.00, '3/8/2018', '3/8/2018', '3/8/2018', 'CHEQUE', 50271950824);
-insert into bd_posto.dbo.abastecimento (notafiscal, cpf_pf, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (4, 59281640617, 7, 50.00, '12/9/2018', '12/10/2018', '12/10/2018', 'CONVENIO', 30172953805);
+insert into bd_posto.dbo.abastecimento (notafiscal, cnpj_pj, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (3, 18217258000100, 6, 1020.00, '3/08/2018', '3/08/2018', '3/08/2018', 'CHEQUE', 50271950824);
+insert into bd_posto.dbo.abastecimento (notafiscal, cpf_pf, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (4, 59281640617, 7, 50.00, '12/09/2018', '12/09/2018', '12/09/2018', 'CARTAO', 30172953805);
 
 insert into bd_posto.dbo.fidelidade (ficha, cpf_pf, data_hora, frentista, pontos) values (1, 19572018584,'20/06/1998 10:34:09', 4, 12);
 insert into bd_posto.dbo.fidelidade (ficha, cpf_pf, data_hora, frentista, pontos) values (2, 59281640617, '20/05/2000 09:35:00', 5, 50);
@@ -104,3 +104,14 @@ insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_pj) values (18,'CAIXA
 insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_pj) values (19,'ITAU', 53, 61941010000116);
 insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_pj) values (20,'SANTANDER', 62, 93860758000180);
 insert into bd_posto.dbo.banco (conta, nome, agencia, cnpj_pj) values (21,'CAIXA', 52, 15592903000186);
+
+
+insert into bd_posto.dbo.abastecimento (notafiscal, cpf_pf, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (5, 59281640617, 6, 50.00, '12/08/2018', '14/08/2018', '14/08/2018', 'CONVENIO', 30172953805);
+insert into bd_posto.dbo.abastecimento (notafiscal, cpf_pf, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (6, 19572018584, 7, 70.00, '13/09/2018', '15/09/2018', '15/09/2018', 'CONVENIO', 50271950824);
+insert into bd_posto.dbo.abastecimento (notafiscal, cpf_pf, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (7, 91750275823, 4, 60.00, '14/10/2018', '16/10/2018', '16/10/2018', 'CONVENIO', 16591732058);
+insert into bd_posto.dbo.abastecimento (notafiscal, cpf_pf, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (8, 19842816427, 7, 80.00, '15/11/2018', '17/11/2018', '17/11/2018', 'CONVENIO', 50271950824);
+insert into bd_posto.dbo.abastecimento (notafiscal, cpf_pf, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (9, 81049216857, 6, 90.00, '16/12/2018', '18/12/2018', '18/12/2018', 'CONVENIO', 30172953805);
+
+insert into bd_posto.dbo.abastecimento (notafiscal, cnpj_pj, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (10, 18217258000100, 7, 800.00, '4/08/2018', '6/08/2018', '6/08/2018', 'CONVENIO', 50271950824);
+insert into bd_posto.dbo.abastecimento (notafiscal, cnpj_pj, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (11, 18217258000100, 6, 700.00, '5/09/2018', '7/09/2018', '7/09/2018', 'CONVENIO', 30172953805);
+insert into bd_posto.dbo.abastecimento (notafiscal, cnpj_pj, frentista, valor, dt_abastecimento, dt_vencimento, dt_pagamento, forma_pagamento, posto) values (12, 18217258000100, 4, 600.00, '6/10/2018', '8/10/2018', '8/10/2018', 'CONVENIO', 16591732058);
